@@ -32,6 +32,7 @@ public class Server {
                 }
             }
 
+            System.out.println("Server is shutting down...");
         } catch (IOException e) {
             e.printStackTrace();
         }
